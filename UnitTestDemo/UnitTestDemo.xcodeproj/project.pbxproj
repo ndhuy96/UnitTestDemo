@@ -15,6 +15,7 @@
 		8E6D4DCC23A9C06B006DE3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D4DCA23A9C06B006DE3A0 /* LaunchScreen.storyboard */; };
 		8E6D4DD723A9C06C006DE3A0 /* UnitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D4DD623A9C06C006DE3A0 /* UnitTestDemoTests.swift */; };
 		8E6D4DE223A9C06C006DE3A0 /* UnitTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D4DE123A9C06C006DE3A0 /* UnitTestDemoUITests.swift */; };
+		8E6D4DF023A9CE05006DE3A0 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D4DEF23A9CE05006DE3A0 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8E6D4DDD23A9C06C006DE3A0 /* UnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6D4DE123A9C06C006DE3A0 /* UnitTestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestDemoUITests.swift; sourceTree = "<group>"; };
 		8E6D4DE323A9C06C006DE3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6D4DEF23A9CE05006DE3A0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8E6D4DC823A9C06B006DE3A0 /* Assets.xcassets */,
 				8E6D4DCA23A9C06B006DE3A0 /* LaunchScreen.storyboard */,
 				8E6D4DCD23A9C06B006DE3A0 /* Info.plist */,
+				8E6D4DEF23A9CE05006DE3A0 /* Car.swift */,
 			);
 			path = UnitTestDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				8E6D4DC423A9C067006DE3A0 /* ViewController.swift in Sources */,
 				8E6D4DC023A9C067006DE3A0 /* AppDelegate.swift in Sources */,
+				8E6D4DF023A9CE05006DE3A0 /* Car.swift in Sources */,
 				8E6D4DC223A9C067006DE3A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FVQE295NZ;
 				INFOPLIST_FILE = UnitTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FVQE295NZ;
 				INFOPLIST_FILE = UnitTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
